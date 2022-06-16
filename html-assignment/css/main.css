@@ -1,4 +1,24 @@
 body {
-    font-family: Helvetica;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+header,footer{
+    background-color: #213b50;
+}
+
+.site-title {
+    color: #fff;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul:nth-child(odd) {
+    background: #F29F05;
+}
