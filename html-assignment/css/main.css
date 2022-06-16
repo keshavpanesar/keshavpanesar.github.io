@@ -25,7 +25,7 @@ ul:nth-child(odd) {
 
 a:link {
     background-color: #F24405;
-    border: #F29F05;
+    border: darkblue;
     text-decoration: none;
 }
 
