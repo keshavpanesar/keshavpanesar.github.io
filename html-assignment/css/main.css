@@ -24,7 +24,6 @@ ul:nth-child(odd) {
 }
 
 a:link {
-    color: black;
     background-color: #F24405;
     border: #F29F05;
     text-decoration: none;
@@ -33,6 +32,6 @@ a:link {
 a:hover {
     color: #F29F05;
     background-color: #F0F2F2
-    text-decoration: none;
+    text-decoration none;
 }
 
