@@ -15,23 +15,25 @@ header,footer{
     box-shadow: 0 0 2px 1px;
 }
 
-ul {
+li {
     list-style-type: square;
 }
 
-ul:nth-child(odd) {
+li:nth-child(odd) {
     background: #F29F05;
 }
+
 
 a:link {
     background-color: #F24405;
     border: darkblue;
     text-decoration: none;
+    border: 2px solid;
 }
 
 a:hover {
     color: #F29F05;
-    background-color: #F0F2F2
-    text-decoration none;
+    background-color: #F0F2F2;
+    text-decoration: none;
 }
 
