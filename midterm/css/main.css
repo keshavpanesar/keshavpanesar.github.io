@@ -3,14 +3,24 @@ html {
 }
 
 .banner {
-    width: 800px;
-    left: 0;
-    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
 }
 
 .wrapper{
     width: 800px;
-    margin: auto;    
+    margin: auto;
+    padding: 10px;
+    background-color: #bfdfdd;    
 }
 
 nav ul li{
@@ -19,8 +29,19 @@ nav ul li{
 
 nav ul li{
     display: inline-block;
-    padding: 75px;
+    padding: 2px;
+    margin: 0 75px 0 75px;
 }
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: navy;
+  }
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,4 +50,8 @@ body {
     width: 200px;
     float: left;
     padding: 10px;
+}
+
+footer {
+    text-align: center;
 }
