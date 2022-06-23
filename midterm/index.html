@@ -11,20 +11,23 @@
     <div class="wrapper">
         <header>
             <!-- use a wrapper to set a width and center the content -->
-            <!-- header has an image -->
             <div class="banner">
+                <!-- header has an image -->
                 <img src="images/lone-starfish-wide.jpg" alt="cover photo of Lone starfish" width="100%"> 
                 <div class="banner-text">Lone Starfish</div> 
             </div>
         </header>
-        <nav>
-            <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">Story</a> </li>
-                <li> <a href="#">Contact</a> </li>
-            </ul>
-        </nav>
+<div class="mainContent"> 
+    <!-- adds nav bar to website -->
+    <nav>
+        <ul>
+            <li> <a href="#">HOME</a> </li>
+            <li> <a href="#">STORY</a> </li>
+            <li> <a href="#">CONTACT</a> </li>
+        </ul> 
+    </nav>
         <br> 
+        <!-- article about starfish -->
         <h2>Life of a Starfish</h2>
         <div class="prop">
             <img src="images/lone-starfish.jpg" alt="image of starfish">
@@ -41,26 +44,31 @@
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
         <h3>Contact to learn more</h3>
+        <div class="formBox">
         <form>
+            <!-- adds forum button -->
             <label for="name">Your Name</label><br>
-            <input type="text" id="name" name="fullname"><br>
+            <input type="text" id="name" name="fullname" class="formInput"><br><br>
             <label for="email">Your Email</label><br>
-            <input type="text" id="email" name="emailaddress"><br>
+            <input type="text" id="email" name="emailaddress" class="formInput"><br><br>
             <label for="memo">Your Message</label><br>
-            <input type="memo" id="message" name="message"><br>
+            <input type="memo" id="message" name="message" class="formMessageInput"><br><br>
         </form>
-        Would you like to visit the starfish?
+        Would you like to visit the starfish?<br><br>
         <form>
+            <!-- adds radio buttons -->
             <input type="radio" id="yes" name="would_you_like" value="Yes">
             <label for="yes">Yes</label>
             <input type="radio" id="no" name="would_you_like" value="no">
             <label for="no">No</label>
             <input type="radio" id="maybe" name="would_you_like" value="maybe">
             <label for="maybe">Maybe</label>
-        </form>
+        </form><br>
         <form>
-            <input type="submit" value="Send">
+            <!-- Adds submit button -->
+            <button type="submit" class="formButton"> SEND</button>
         </form>
+        </div>
         <footer>
         © Copyright 2022 Keshav Singh Panesar
         </footer>
