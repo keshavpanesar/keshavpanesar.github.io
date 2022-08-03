@@ -1,3 +1,166 @@
-html{
-    font-family: 'Roboto', sans-serif;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: #c78c06;
+}
+
+.nav-bar {
+    width: 100%;
+    text-align: center;
+}
+  
+.nav-bar a {
+    background-color: #222;
+    color: #c78c06;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+  
+.nav-bar a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+  
+.nav-bar a.home {
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* .search-head form{
+    display: block;
+    width: 100%;
+} */
+
+.nav-bar .search-head {
+    display: inline;
+}
+  
+.nav-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+  
+/* ask harsh veera */
+
+.nav-bar .search-head button {
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.welcome img{
+    width: 100%;
+}
+
+.welcome {
+    position: relative;
+}
+
+.text-welcome {
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    background-color: black;
+
+    font-size: 2rem;
+    color: white;
+    padding: 20px;
+}
+
+.text-welcome h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem 0.4rem;
+}
+
+.text-welcome p{
+    font-size: 16px;
+    font-weight: 300px;
+}
+.text-welcome a{
+    text-decoration: none;
+    color: black;
+    background-color: #c78c06;
+    padding: 10px 5px;
+}
+
+
+.about-us img{
+    width: 100%;
+}
+
+.about-us h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 1px;
+}
+.about-us{
+    background-color: #ffe6ac;
+    padding: 10px  20px 10px 10px;
+}
+
