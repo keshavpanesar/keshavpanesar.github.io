@@ -48,15 +48,13 @@ table {
 }
 
 /* css reset */
-
+/* css reset */
+/* css reset */
+/* css reset */
+/* css reset */ 
 
 html{
     font-family: 'Open Sans', sans-serif;
-}
-
-.wrapper{
-    width: 100%;
-    margin: auto;
 }
 
 header{
@@ -75,6 +73,7 @@ header{
     padding: 12px;
     text-decoration: none;
 }
+
   
 .nav-bar a:hover {
     background-color: #c78c06;
@@ -86,10 +85,7 @@ header{
     color: #222;
 }
 
-/* .search-head form{
-    display: block;
-    width: 100%;
-} */
+/* fix search bar */
 
 .nav-bar .search-head {
     display: inline;
@@ -102,14 +98,11 @@ header{
     border: none;
 }
   
-/* ask harsh veera */
-
-.nav-bar .search-head button {
-    padding: 6px 10px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+.fa-magnifying-glass{
+    color: #c78c06;
+    background-color: black;
+    padding: 8px;
+    border: 1px #c78c06;
 }
 
 .welcome img{
@@ -125,42 +118,436 @@ header{
     position: absolute;
     top: 10%;
     bottom: 10%;
-    background-color: black;
-
+    background-color: rgba(34, 34, 34, 0.651) ;
     font-size: 2rem;
     color: white;
-    padding: 20px;
 }
 
 .text-welcome h1{
     font-size: 3rem;
     font-weight: 700;
-    padding: 1rem 0.4rem;
+    padding: 20px 5px 20px 5px;
 }
 
 .text-welcome p{
-    font-size: 16px;
-    font-weight: 300px;
-}
-.text-welcome a{
-    text-decoration: none;
-    color: black;
-    background-color: #c78c06;
-    padding: 10px 5px;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 
+.welcomebutton {
+    background-color: #c78c06;
+    padding: 30px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.welcomebutton a,i{
+    text-decoration: none;
+    color: white;
+}
 
 .about-us img{
     width: 100%;
+    padding-bottom: 10px
 }
 
 .about-us h2{
     font-size: 2rem;
     font-weight: 700;
-    padding: 0.5rem 1px;
+    padding: 0px 0px 10px 0px;
 }
+
+.about-us p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+
 .about-us{
     background-color: #ffe6ac;
     padding: 10px  20px 10px 10px;
 }
 
+.services{
+    padding: 10px;
+}
+
+.services h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 10px 5px;
+}
+
+.digital-transformation{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.digital-transformation img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.digital-transformation p{
+    padding: 10px;
+    font-size: 12px;
+}
+
+.digital-transformation h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.dtbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.dtbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.marketing{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.marketing img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.marketing p{
+    font-size: 12px;
+    padding: 10px;
+}
+.marketing h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.msbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 140px;
+    font-size: 16px;
+}
+
+.msbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+
+.video_production{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.video_production img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.video_production h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-block: 10px;
+}
+
+.vpbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.vpbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.video_production p{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+.web{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.web img{
+    width: 100%;
+}
+
+.web h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-block: 10px;
+}
+
+.webbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.webbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.web p{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+.print{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.print img{
+    width: 100%;
+}
+
+.print h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.psbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.psbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.print p{
+    padding:0px 10px 10px 10px;
+    font-size: 12px;
+}
+
+.vision img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.vision{
+    position: relative;
+}
+
+.text-vision{
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    color: white;
+    padding: 10px;
+}
+
+.text-vision h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.text-vision p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.lmbutton {
+    background-color: rgba(34, 34, 34, 0.498);
+    padding: 30px;
+    width: 120px;
+    border: 0.5px solid #c78c06;
+    font-size: 16px;
+}
+
+.lmbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.team{
+    padding: 10px
+}
+
+.team h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.john{
+    padding-bottom: 10px;
+}
+.john img{
+    width: 100%;
+}
+
+.text-john{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.text-john h3{ 
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-john h6{
+    font-weight: 600;
+}
+
+.text-john p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.bob{
+    padding-bottom: 10px;
+}
+
+.bob img{
+    width: 100%;
+}
+
+.text-bob{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.text-bob h3{ 
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-bob h6{
+    font-weight: 600;
+}
+
+.text-bob p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.contact{
+    padding: 10px;
+    margin: auto;
+}
+
+.contact h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px 1px 30px 1px;
+}
+
+hr{
+    color: #c78c06;
+    border: 1px solid #c78c06;
+}
+.contact h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.forminput{
+    width: 100%;
+    font-size: 18px;
+}
+
+.formmessageinput{
+    width: 100%;
+    font-size: 18px;
+    height: 120px;
+}
+
+.formbutton{
+    background-color: black;
+    color: #c78c06;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.hours h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table tr th{
+    background-color: #ffe6ac;
+    text-align: center;
+    padding: 15px;
+    border: 0.5px solid black;
+}
+
+table td{
+    padding: 15px;
+    border: 0.5px solid black;
+}
+
+.location{
+    padding: 10px;
+}
+
+.location h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.location iframe{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    color: #c78c06;
+    background-color: #222;
+    padding: 20px 10px 10px 10px;
+}
+
+footer a{
+    color: #c78c06;
+    text-decoration: none;
+}
+
+footer p{
+    color: #c78c06;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 10px;
+}
