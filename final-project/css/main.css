@@ -56,6 +56,9 @@ table {
 html{
     font-family: 'Open Sans', sans-serif;
 }
+.container{
+    width: 100%;
+}
 
 header{
     background-color: #c78c06;
@@ -84,25 +87,21 @@ header{
     background-color: #c78c06;
     color: #222;
 }
-
-/* fix search bar */
-
-.nav-bar .search-head {
-    display: inline;
-}
   
 .nav-bar input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
+    padding: 10px;
+    font-size: 14px;
+    max-width: 390px;
+    width: 81%;
     border: none;
 }
   
 .fa-magnifying-glass{
     color: #c78c06;
-    background-color: black;
+    background: black;
     padding: 8px;
-    border: 1px #c78c06;
+    border: 1px solid #c78c06;
+    font-size: 17px;
 }
 
 .welcome img{
@@ -132,7 +131,7 @@ header{
 .text-welcome p{
     font-size: 12px;
     font-weight: 300;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .welcomebutton {
@@ -142,9 +141,14 @@ header{
     font-size: 16px;
 }
 
-.welcomebutton a,i{
+.welcomebutton a{
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.welcomebutton i{
+    text-decoration: none;
+    color: black;
 }
 
 .about-us img{
@@ -183,7 +187,6 @@ header{
     background-color: #ffe6ac;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    display: block;
 }
 
 .digital-transformation img{
@@ -286,7 +289,6 @@ header{
 
 .web{
     background-color: #ffe6ac;
-    display: block;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -298,7 +300,7 @@ header{
 .web h3{
     font-size: 1.7rem;
     font-weight: 700;
-    padding-block: 10px;
+    padding: 10px;
 }
 
 .webbutton {
@@ -314,7 +316,7 @@ header{
 }
 
 .web p{
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 12px;
 }
 
@@ -353,6 +355,7 @@ header{
 
 .vision img{
     width: 100%;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -550,4 +553,493 @@ footer p{
     padding: 10px;
     font-weight: 100;
     font-size: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+    html{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .headwrapper{
+        width: 80%;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    header{
+        background-color: #222;
+        width: 80%;
+        max-width: 1200px;
+        padding: 20px ;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-bar a{
+        color: #c78c06;
+        text-decoration: none;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    .nav-bar a:hover{
+        background-color: #c78c06;
+        color: #222;
+    }
+    
+    .nav-bar a.home{
+        background-color: #c78c06;
+        color: #222;
+    }
+    
+    .nav-bar input{
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .fa-magnifying-glass{
+        color: #c78c06;
+        background-color: #222;
+        padding: 15px;
+        border: none;
+    }
+    
+    .welcome img{
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+    
+    .welcome-container{
+        width: 80%;
+        max-width: 1200px;
+        background-color: #222;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .welcome {
+        position: relative;
+    }
+    
+    .text-welcome {
+        display: block;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        margin: 30px 110px 30px 0px;
+        align-items: center;
+        /* margin: 50px; */
+        background-color: rgba(34, 34, 34, 0.651);
+        color: white;
+    }
+    
+    .text-welcome h1{
+        font-size: 6rem;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .text-welcome p{
+        font-size: 16px;
+        font-weight: 300;
+        padding: 10px;
+    }
+    
+    .welcomebutton {
+        background-color: #c78c06;
+        padding: 30px;
+        width: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .welcomebutton a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .welcomebutton i{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .about-us{
+        background-color: #ffe6ac;
+        padding: 20px;
+    }
+    .us-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    .about-us img{
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    
+    .about-us h2{
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .about-us p{
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .services{
+        padding: 10px;
+    }
+    
+    .services h2{
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 10px 5px;
+    } 
+    
+    .service-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    p{
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    h3{
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+    
+    .digital-transformation img{
+        width: 50%;
+        padding-bottom: 20px;
+        margin: 10px;
+    }
+    
+    .digital-transformation{
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px ;
+    }
+    
+    .dtbutton {
+        background-color: #222;
+        padding: 30px;
+        width: 120px;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .dtbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .marketing{
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px ;
+    }
+    
+    .marketing img{
+        width: 50%;
+        padding-bottom: 20px;
+        margin: 10px;
+    }
+    
+    .msbutton {
+        background-color: #222;
+        padding: 30px;
+        width: 140px;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .msbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .video_production{
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .video_production img{
+        width: 33.33%;
+        padding-bottom: 20px;
+    }
+    
+    
+    .vpbutton {
+        background-color: #222;
+        padding: 30px;
+        width: 120px;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .vpbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .web{
+        background-color: #ffe6ac;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .web img{
+        width: 33.33%;
+    }
+    
+    .webbutton {
+        background-color: #222;
+        padding: 30px;
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    .webbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .print{
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    .print img{
+        width: 33.33%;
+    }
+    
+    .psbutton {
+        background-color: #222;
+        padding: 30px;
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    .psbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .vision img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .vision-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .vision{
+        position: relative;
+    
+    }
+    
+    .text-vision{
+        position: absolute;
+        top: 20%;
+        bottom: 10%;
+        padding: 10px 0px 10px 0px;
+        color: white;
+        padding: 10px;
+    }
+    
+    .lmbutton {
+        background-color: rgba(34, 34, 34, 0.498);
+        padding: 30px;
+        width: 120px;
+        border: 0.5px solid #c78c06;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .lmbutton a,i{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .team{
+        padding: 10px
+    }
+    
+    .team-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .john{
+        padding-bottom: 10px;
+    }
+    .john img{
+        width: 100%;
+    }
+    
+    .text-john{
+        background-color: #ffe6ac;
+        padding: 10px;
+    }
+    
+    .text-john h6{
+        font-weight: 600;
+    }
+    
+    .bob{
+        padding-bottom: 10px;
+    }
+    
+    .bob img{
+        width: 100%;
+    }
+    
+    .text-bob{
+        background-color: #ffe6ac;
+        padding: 10px;
+    }
+    
+    .text-bob h6{
+        font-weight: 600;
+    }
+    
+    .contact{
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .contact-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    hr{
+        color: #c78c06;
+        border: 1px solid #c78c06;
+    }
+    
+    .forminput{
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .formmessageinput{
+        width: 100%;
+        font-size: 18px;
+        height: 120px;
+    }
+    
+    .formbutton{
+        background-color: black;
+        color: #c78c06;
+        padding: 2px;
+        font-size: 18px;
+    }
+    
+    .hours h3{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    table{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    table tr th{
+        background-color: #ffe6ac;
+        text-align: center;
+        padding: 15px;
+        border: 0.5px solid black;
+    }
+    
+    table td{
+        padding: 15px;
+        border: 0.5px solid black;
+    }
+    
+    .location{
+        padding: 10px;
+    }
+    
+    .location h3{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .location iframe{
+        width: 100%;
+        height: 400px;
+    }
+    
+    footer{
+        color: #c78c06;
+        background-color: #222;
+        padding: 20px 10px 10px 10px;
+    }
+    
+    .footer-wrapper{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    footer a{
+        color: #c78c06;
+        text-decoration: none;
+    }
+    
+    footer p{
+        color: #c78c06;
+        padding: 10px;
+        font-weight: 100;
+        font-size: 10px;
+    }
 }
