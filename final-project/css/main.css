@@ -3,50 +3,136 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 /* css reset */
 /* css reset */
@@ -93,16 +179,18 @@ header {
 .nav-bar input[type=text] {
     padding: 10px;
     font-size: 14px;
-    max-width: 390px;
-    width: 81%;
+    width: 85%;
     border: none;
+}
+
+.search-head {
+    color: #222;
 }
 
 .fa-magnifying-glass {
     color: #c78c06;
-    background: black;
+    background: #222;
     padding: 8px;
-    border: 1px solid #c78c06;
     font-size: 17px;
 }
 
@@ -125,32 +213,37 @@ header {
 }
 
 .text-welcome h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
+    line-height: 5rem;
     padding: 20px 5px 20px 5px;
 }
 
 .text-welcome p {
-    font-size: 12px;
+    font-size: .9rem;
     font-weight: 300;
+    line-height: 1.3rem;
     padding: 10px;
 }
 
 .welcomebutton {
     background-color: #c78c06;
-    padding: 30px;
-    width: 150px;
-    font-size: 16px;
+    margin-left: .7rem;
+    padding: 1.5rem;
+    width: 26%;
 }
 
 .welcomebutton a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .welcomebutton i {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
 }
 
 .about-us img {
@@ -172,9 +265,7 @@ header {
 
 .about-us {
     background-color: #ffe6ac;
-    padding: 10px 20px 10px 10px;
-    display: flex;
-    padding: 1rem 15rem;
+    padding: 10px 10px 10px 10px;
 }
 
 .services {
@@ -477,7 +568,7 @@ i {
 }
 
 .contact {
-    padding: 10px;
+    padding: 2rem 1rem;
     margin: auto;
 }
 
@@ -485,6 +576,11 @@ i {
     font-weight: 700;
     font-size: 2.5rem;
     padding: 20px 1px 30px 1px;
+}
+
+.hours {
+    padding: 0rem 1rem;
+    margin: auto;
 }
 
 hr {
@@ -539,11 +635,12 @@ table td {
 }
 
 .location {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .location h3 {
     font-size: 2rem;
+    margin-bottom: 1rem;
     font-weight: 700;
 }
 
@@ -578,6 +675,8 @@ footer p {
 
 .searchIcon {
     display: flex;
+    padding: 1rem;
+    background-color: #222;
 }
 
 .searchIcon:hover {
@@ -587,8 +686,6 @@ footer p {
 
 .about-us-wrapper {
     width: 80%;
-    display: flex;
-    margin-left: 10rem;
 }
 
 .block1 {
@@ -841,7 +938,7 @@ footer p {
         display: block;
         padding-bottom: 10px;
         margin-bottom: 20px;
-            margin: .6rem;
+        margin: .6rem;
     }
 
     .video_production img {
@@ -870,7 +967,7 @@ footer p {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin-bottom: 20px;
-            margin: .6rem;
+        margin: .6rem;
     }
 
     .web img {
@@ -879,11 +976,11 @@ footer p {
     }
 
     .webbutton {
-            background-color: #222;
-            width: 79%;
-            text-align: center;
-            font-size: 1.5rem;
-            margin: 10px;
+        background-color: #222;
+        width: 79%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
     }
 
     .webbutton a,
@@ -896,7 +993,7 @@ footer p {
         background-color: #ffe6ac;
         display: block;
         padding-bottom: 10px;
-            margin: .6rem;
+        margin: .6rem;
     }
 
     .print img {
@@ -905,11 +1002,11 @@ footer p {
     }
 
     .psbutton {
-         background-color: #222;
-         width: 79%;
-         text-align: center;
-         font-size: 1.5rem;
-         margin: 10px;
+        background-color: #222;
+        width: 79%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
     }
 
     .psbutton a,
@@ -983,7 +1080,7 @@ footer p {
     .text-john {
         background-color: #ffe6ac;
         padding: 10px;
-            width: 50%;
+        width: 50%;
     }
 
     .text-john h6 {
@@ -1002,7 +1099,7 @@ footer p {
     .text-bob {
         background-color: #ffe6ac;
         padding: 10px;
-            width: 50%;
+        width: 50%;
     }
 
     .text-bob h6 {
@@ -1069,7 +1166,7 @@ footer p {
 
     .location {
         padding: 10px;
-            width: 50%;
+        width: 50%;
     }
 
     .location h3 {
@@ -1087,8 +1184,8 @@ footer p {
         background-color: #222;
         padding: 20px 10px 10px 10px;
     }
-    .footer-text
-    {
+
+    .footer-text {
         margin-left: 21rem;
     }
 
@@ -1111,8 +1208,7 @@ footer p {
         font-size: 10px;
     }
 
-    .hours
-    {
+    .hours {
         width: 62%;
         margin-left: 22rem;
     }
