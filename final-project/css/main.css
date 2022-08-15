@@ -381,7 +381,7 @@ i {
 }
 
 .video_production p {
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 12px;
 }
 
@@ -397,7 +397,7 @@ i {
 }
 
 .web h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     padding: 10px;
 }
@@ -416,7 +416,7 @@ i {
 }
 
 .web p {
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 12px;
     font-size: 12px;
 }
@@ -452,7 +452,7 @@ i {
 }
 
 .print p {
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 12px;
 }
 
@@ -688,14 +688,6 @@ footer p {
     width: 80%;
 }
 
-.block1 {
-    display: flex;
-}
-
-.block2 {
-    display: flex;
-}
-
 
 @media screen and (min-width: 760px) {
     html {
@@ -788,20 +780,22 @@ footer p {
 
     .text-welcome h1 {
         font-size: 7rem;
+        line-height: 7rem;
         font-weight: 700;
         padding: 20px;
     }
 
     .text-welcome p {
-        font-size: 16px;
+        font-size: 1.3rem;
         font-weight: 300;
         padding: 10px;
+        line-height: 1.5rem;
     }
 
     .welcomebutton {
         background-color: #c78c06;
         padding: 30px;
-        width: 150px;
+        width: 180px;
         font-size: 16px;
         margin: 10px;
     }
@@ -818,7 +812,18 @@ footer p {
 
     .about-us {
         background-color: #ffe6ac;
-        padding: 20px;
+        /* padding: 20px; */
+        display: flex;
+        padding: 1rem 10rem;
+    }
+
+    .about-us-image {
+        width: 50%;
+    }
+
+    .about-us-text {
+        width: 50%;
+        margin-left: 1rem;
     }
 
     .us-wrapper {
@@ -840,7 +845,7 @@ footer p {
     }
 
     .about-us p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 10px;
     }
 
@@ -859,11 +864,6 @@ footer p {
         max-width: 1200px;
         align-items: center;
         margin: auto;
-    }
-
-    p {
-        padding: 10px;
-        font-size: 12px;
     }
 
     h2 {
@@ -1077,6 +1077,10 @@ footer p {
         width: 100%;
     }
 
+    .john-image {
+        width: 50%;
+    }
+
     .text-john {
         background-color: #ffe6ac;
         padding: 10px;
@@ -1084,6 +1088,12 @@ footer p {
     }
 
     .text-john h6 {
+        font-weight: 600;
+    }
+
+    .text-john p {
+        font-size: 1.3rem;
+        line-height: 2rem;
         font-weight: 600;
     }
 
@@ -1096,11 +1106,21 @@ footer p {
         width: 100%;
     }
 
+    .bob-image {
+        width: 50%;
+    }
+
     .text-bob {
         background-color: #ffe6ac;
         padding: 10px;
         width: 50%;
     }
+
+      .text-bob p {
+          font-size: 1.3rem;
+          line-height: 2rem;
+          font-weight: 600;
+      }
 
     .text-bob h6 {
         font-weight: 600;
@@ -1211,5 +1231,33 @@ footer p {
     .hours {
         width: 62%;
         margin-left: 22rem;
+    }
+
+    .submitButton {
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #c78c06;
+    }
+
+    .searchIcon {
+        display: flex;
+        padding: 1rem;
+        background-color: #222;
+    }
+
+    .searchIcon:hover {
+        cursor: pointer;
+    }
+
+    .about-us-wrapper {
+        width: 80%;
+    }
+
+    .block1 {
+        display: flex;
+    }
+
+    .block2 {
+        display: flex;
     }
 }
