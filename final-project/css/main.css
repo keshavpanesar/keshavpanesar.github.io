@@ -1089,22 +1089,18 @@ footer p {
         margin: auto;
     }
 
-
-    .teamgrid :nth-child(1) { grid-area: t1; }
-    .teamgrid :nth-child(2) { grid-area: t2; }
-    .teamgrid :nth-child(3) { grid-area: t3; }
-    .teamgrid :nth-child(4) { grid-area: t4; }
-
-    .teamgrid {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-template-areas:
-        "t1 t2"
-        "t4 t3";
+    /* gives styles to john part */
+    .john {
+        display: flex;
     }
 
-    /* gives styles to john part */
+    .john img {
+        width: 100%;
+    }
+
+    .john-image {
+        width: 50%;
+    }
 
     .text-john {
         background-color: #ffe6ac;
@@ -1120,9 +1116,21 @@ footer p {
         font-size: 1.3rem;
         line-height: 2rem;
         font-weight: 600;
-    } 
+    }
 
     /* gives styles to bob part */
+    .bob {
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    .bob img {
+        width: 100%;
+    }
+
+    .bob-image {
+        width: 50%;
+    }
 
     .text-bob {
         background-color: #ffe6ac;
@@ -1138,7 +1146,7 @@ footer p {
 
     .text-bob h6 {
         font-weight: 600;
-    } */
+    }
 
     /* gives styles to contact part */
     .contact {
