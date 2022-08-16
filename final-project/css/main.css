@@ -827,7 +827,6 @@ footer p {
     /* gives styles to about us part */
     .about-us {
         background-color: #ffe6ac;
-        /* padding: 20px; */
         display: flex;
         padding: 1rem 10rem;
     }
@@ -955,7 +954,7 @@ footer p {
     .video_production {
         background-color: #ffe6ac;
         display: block;
-        padding-bottom: 10px;
+        padding: 10px;
         margin-bottom: 20px;
         margin: .6rem;
     }
@@ -984,7 +983,7 @@ footer p {
     /* gives styles to web development part */
     .web {
         background-color: #ffe6ac;
-        padding-bottom: 10px;
+        padding: 10px;
         margin-bottom: 20px;
         margin: .6rem;
     }
